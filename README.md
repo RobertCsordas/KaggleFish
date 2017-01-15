@@ -32,14 +32,14 @@ Dataset
 Training
 --------
 
-./main.py -dataset <your dataset folder> -name <name of the current train version>
+./main.py -dataset 'your dataset folder' -name 'name of the current train version'
 
 A directory with the given name will be created. All training related informations will be saved here.
 
 Debugging in TensorBoard
 ------------------------
 
-tensorboard --logdir=<name of training>/log
+tensorboard --logdir='name of training'/log
 
 Results
 -------
